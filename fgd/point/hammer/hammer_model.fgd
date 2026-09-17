@@ -12,7 +12,7 @@
 
 	// These will only work in specific engine branches or community Hammer forks (e.g. Hammer++)
 	defaultanim(string) : "Animation" : : "The animation to display. Not supported by some versions of Hammer, you can use the Model tab instead to set the animation non-persistently."
-	body(integer) : "Body Group" : 0 : "Body groups to display. Not supported by most versions of Hammer."
+	body(integer) : "Body Group" : 0 : "Body groups to display. May not be supported by some versions of Hammer."
 	modelscale(float) : "Model Scale" : 1.0 : "The scale to display the model at. Not supported by most versions of Hammer."
 
 	@resources [] // Doesn't exist.
